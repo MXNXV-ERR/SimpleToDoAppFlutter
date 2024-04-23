@@ -16,9 +16,13 @@ jobs:
         with:
           distribution: 'oracle'
           java-version: '17'
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.19.0
       - run: >-
-          sudo snap install flutter --classic && flutter channel stable && flutter pub get && flutter build apk -debug --split-per-abi && flutter
-          config --enable-web && flutter build web --web-renderer html --release
+         flutter pub get && flutter build apk -debug --split-per-abi && flutter config --enable-web && flutter build web --web-renderer html --release
       - name: Push to release
         uses: ncipollo/release-action@v1.10.0
         with:
