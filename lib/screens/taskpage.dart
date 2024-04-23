@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swipe_action_cell/core/cell.dart';
-import 'package:todos/databasehelper.dart';
-import 'package:todos/golbals.dart';
-import 'package:todos/models/task.dart';
-import 'package:todos/models/todo.dart';
-import 'package:todos/widgets.dart';
+import 'package:simpletodo/databasehelper.dart';
+import 'package:simpletodo/golbals.dart';
+import 'package:simpletodo/models/task.dart';
+import 'package:simpletodo/models/todo.dart';
+import 'package:simpletodo/widgets.dart';
 
 class TaskPage extends StatefulWidget {
   final Task? task;

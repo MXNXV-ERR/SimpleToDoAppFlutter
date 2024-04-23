@@ -1,6 +1,6 @@
 {
-    "name": "todos",
-    "short_name": "todos",
+    "name": "simpletodo",
+    "short_name": "simpletodo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

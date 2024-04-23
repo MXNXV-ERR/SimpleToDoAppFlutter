@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todos/databasehelper.dart';
-import 'package:todos/screens/taskpage.dart';
-import 'package:todos/widgets.dart';
-import 'package:todos/golbals.dart';
+import 'package:simpletodo/databasehelper.dart';
+import 'package:simpletodo/screens/taskpage.dart';
+import 'package:simpletodo/widgets.dart';
+import 'package:simpletodo/golbals.dart';
 import 'package:flutter_swipe_action_cell/flutter_swipe_action_cell.dart';
 
 // ignore: must_be_immutable

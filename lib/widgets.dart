@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todos/golbals.dart';
+import 'package:simpletodo/golbals.dart';
 import 'databasehelper.dart';
 //import 'models/task.dart';
 

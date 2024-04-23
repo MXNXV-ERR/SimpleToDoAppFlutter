@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 // import 'package:google_fonts/google_fonts.dart';
-import 'package:todos/screens/homepage.dart';
+import 'package:simpletodo/screens/homepage.dart';
 
 void main() {
   runApp(const MyApp());

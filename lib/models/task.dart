@@ -1,4 +1,4 @@
-//import 'package:todos/models/todo.dart';
+//import 'package:simpletodo/models/todo.dart';
 
 class Task {
   late final int? id;
